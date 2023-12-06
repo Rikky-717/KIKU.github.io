@@ -1,0 +1,288 @@
+/*
+    IMGをフィットさせる
+    object-fit: cover;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.top-wrapper {
+    background-image: url(../IMG/main.jpg);
+    height: 800px;
+    display: flex;
+}
+
+.menu {
+    background-color: rgba(83, 75, 75, 0.2);
+    height: 800px;
+    width: 13%;
+}
+
+.menu img {
+    width: 50%;
+    padding: 25% 25% 30% 25%;
+}
+
+.menu ul {
+    padding-left: 25%;
+}
+
+.menu ul li {
+    padding-bottom: 20%;
+}
+
+.menu ul li a:hover {
+    opacity: 0.9;
+    color: rgba(182, 166, 50, 0.6);
+}
+
+.menu ul li a {
+    color: white;
+    opacity: 0.6;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.top-wrapper h1 {
+    writing-mode: vertical-rl;
+    color: white;
+    padding: 200px 300px 200px 700px;
+    font-size: 56px;
+    opacity: 0.8;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: double 8px rgba(139, 125, 19, 0.6);
+}
+
+.particular {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+    height: 800px;
+    padding-top: 80px;
+}
+
+.par-contents {
+    padding-top: 40px;
+}
+
+.par-contents h3 {
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+
+.par-contents p {
+    font-size: 18px;
+}
+
+.img-wrapper img{
+    vertical-align:top;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-wrapper {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 80px;
+}
+
+.courses {
+    display: flex;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.course{
+    height: 600px;
+    width: 34%;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.course:hover{
+    opacity: 0.8;
+}
+
+.course h3 {
+    writing-mode: vertical-rl;
+    display: block;
+    padding: 10px 5px;
+    background-color: rgba(139, 125, 19, 0.6);
+    position: absolute;
+}
+
+.bottom h3{
+    bottom: 0;
+}
+
+.top h3{
+    top: 0;
+}
+
+.course img {
+    width: 95%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.top img {
+    padding-top: 100px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(139, 125, 19, 0.6);
+    font-size: 20px;
+    margin: 64px 45%;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.menu-wrapper p {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.news-wrapper {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 80px;
+    height: 500px;
+}
+
+.news-contents {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.news {
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: solid 1px grey;
+    font-size: 20px;
+}
+
+.day {
+    width: 20%;
+}
+
+.text {
+    width: 80%;
+}
+
+.information-wrapper {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+    padding:80px 0;
+}
+
+.information-wrapper .container {
+    display: flex;
+}
+
+.shop-info {
+    width: 40%;
+    padding-right: 10%;
+}
+
+.info {
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: solid 1px grey;
+}
+
+.info p {
+    padding: 4px 0;
+    font-size: 16px;
+}
+
+.info1 {
+    width: 30%;
+}
+
+.info2 {
+    width: 70%;
+}
+
+.map {
+    width: 50%;
+}
+
+iframe {
+    filter: grayscale(1);
+}
+
+footer {
+    background-color: black;
+}
+
+.menu-lavel {
+    width: 100%;
+    background-color: rgba(182, 166, 50, 0.6);
+}
+
+.menu-lavel ul {
+    display: flex;
+    width: 48%;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+}
+
+.menu-lavel ul li {
+    padding: 24px;
+}
+
+.menu-lavel ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s;
+}
+
+.menu-lavel ul li a:hover {
+    opacity: 0.8;
+}
+
+.sns-wrapper {
+    background-color: black;
+}
+
+.bottom-wrapper {
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+
+.bottom-wrapper img{
+    width: 32px;
+    padding: 32px;
+}
